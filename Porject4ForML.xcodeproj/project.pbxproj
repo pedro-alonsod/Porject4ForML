@@ -14,6 +14,8 @@
 		2E1D4E0A207BC0BE004BEC37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1D4E08207BC0BE004BEC37 /* LaunchScreen.storyboard */; };
 		2E1D4E15207BC0BF004BEC37 /* Porject4ForMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D4E14207BC0BF004BEC37 /* Porject4ForMLTests.swift */; };
 		2E1D4E20207BC0BF004BEC37 /* Porject4ForMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D4E1F207BC0BF004BEC37 /* Porject4ForMLUITests.swift */; };
+		2E1D4E2E207BCE8B004BEC37 /* 10653432_795132707217816_2683863218945616920_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E1D4E2D207BCE8B004BEC37 /* 10653432_795132707217816_2683863218945616920_n.jpg */; };
+		2E1D4E30207BD017004BEC37 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D4E2F207BD017004BEC37 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2E1D4E1B207BC0BF004BEC37 /* Porject4ForMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Porject4ForMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1D4E1F207BC0BF004BEC37 /* Porject4ForMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porject4ForMLUITests.swift; sourceTree = "<group>"; };
 		2E1D4E21207BC0BF004BEC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E1D4E2D207BCE8B004BEC37 /* 10653432_795132707217816_2683863218945616920_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10653432_795132707217816_2683863218945616920_n.jpg; sourceTree = "<group>"; };
+		2E1D4E2F207BD017004BEC37 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				2E1D4DFF207BC0BD004BEC37 /* AppDelegate.swift */,
 				2E1D4E01207BC0BD004BEC37 /* ViewController.swift */,
 				2E1D4E03207BC0BD004BEC37 /* Main.storyboard */,
+				2E1D4E2D207BCE8B004BEC37 /* 10653432_795132707217816_2683863218945616920_n.jpg */,
 				2E1D4E06207BC0BE004BEC37 /* Assets.xcassets */,
 				2E1D4E08207BC0BE004BEC37 /* LaunchScreen.storyboard */,
 				2E1D4E0B207BC0BE004BEC37 /* Info.plist */,
+				2E1D4E2F207BD017004BEC37 /* Resnet50.mlmodel */,
 			);
 			path = Porject4ForML;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 				2E1D4E0A207BC0BE004BEC37 /* LaunchScreen.storyboard in Resources */,
 				2E1D4E07207BC0BE004BEC37 /* Assets.xcassets in Resources */,
 				2E1D4E05207BC0BD004BEC37 /* Main.storyboard in Resources */,
+				2E1D4E2E207BCE8B004BEC37 /* 10653432_795132707217816_2683863218945616920_n.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E1D4E02207BC0BD004BEC37 /* ViewController.swift in Sources */,
+				2E1D4E30207BD017004BEC37 /* Resnet50.mlmodel in Sources */,
 				2E1D4E00207BC0BD004BEC37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DLM47CZ8G;
 				INFOPLIST_FILE = Porject4ForML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DLM47CZ8G;
 				INFOPLIST_FILE = Porject4ForML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
